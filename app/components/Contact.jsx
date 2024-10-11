@@ -3,7 +3,7 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 mt-10 px-20 sm:text-left pb-16 bg-gray-100 pt-10">
+      <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-2 mt-10 px-20 sm:text-left pb-16  pt-10">
         <div>
         <h1 href="/" className="text-green-500 font-bold text-lg">
               <span className="bg-green-500 text-white p-1 rounded">F</span>OODI

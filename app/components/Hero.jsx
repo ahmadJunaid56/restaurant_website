@@ -1,16 +1,16 @@
+import chef from "/public/chef1.png";
 import Image from "next/image";
 import React from "react";
-import noodle from "/public/woman.png";
 import salad from "/public/salad.jpeg";
 import noodle1 from "/public/noodle.jpeg";
 export default function Hero() {
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center p-6">
+      <div className="bg-white min-h-screen flex items-center justify-center p-6">
         <div className="flex flex-col md:flex-row items-center gap-8 max-w-6xl mb-10 mx-auto">
           {/* Left Section: Title, Description, Buttons */}
           <div className="text-center md:text-left md:w-1/2">
-            <h1 className="text-6xl leading-tight">
+            <h1 className="text-6xl font-bold leading-tight">
               Dive into Delights
               Of Delectable <span className="text-green-500">Food</span>
             </h1>
@@ -33,35 +33,11 @@ export default function Hero() {
             <div className="relative">
               {/* Image */}
               <Image
-                src={noodle}  // Replace with your image
+                src={chef}  // Replace with your image
                 alt="Food"
-                className="rounded-full w-80 h-80"
+                className="w-96 h-96"
               />
               {/* Floating Label */}
-              <div className="absolute -top-0 -left-6 transform bg-red-500 text-white py-1 px-3 text-sm rounded-full md:hidden:">
-                Hot spicy Food 🌶️
-              </div>
-              <div className="flex justify-center gap-6 mt-12">
-                <div className="bg-green-500 shadow-lg rounded-lg p-4 flex flex-col items-center">
-                  <Image
-                    src={noodle1} // Replace with your image
-                    alt="Spicy Noodles"
-                    className="w-16 h-16 border-2 object-cover rounded-full shadow-2xl"
-                  />
-                  <h3 className="text-md mt-2 text-white">Spicy noodles</h3>
-                  <p className=" text-white">$18.00</p>
-                </div>
-
-                <div className="bg-white shadow-lg rounded-lg p-4 flex flex-col items-center">
-                  <Image
-                    src={salad} // Replace with your image
-                    alt="Vegetarian Salad"
-                    className="w-16 h-16 border-2 border-black object-cover shadow-2xl rounded-full"
-                  />
-                  <h3 className="text-md mt-2 text-green-500">Vegetarian salad</h3>
-                  <p className="text-green-500 ">$23.00</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

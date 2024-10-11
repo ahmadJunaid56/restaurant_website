@@ -21,7 +21,7 @@ export default function Testimonials() {
               <h2 className="text-base font-semibold text-red-500">
                 TESTIMONIALS
               </h2>
-              <h3 className="mt-1 text-5xl font-extrabold text-gray-900">
+              <h3 className="mt-1 text-5xl pr-10 font-extrabold text-gray-900">
                 What Our Customers Say About Us
               </h3>
               <p className="mt-4 pr-20 text-gray-600">
