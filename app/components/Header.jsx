@@ -15,19 +15,19 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white">
+    <nav className="w-full shadow-lg bg-white sticky top-0 z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-green-500 font-bold text-lg">
+            <a href="/" className="text-green-500 font-bold text-xl">
               <span className="bg-green-500 text-white p-1 rounded">F</span>OODI
             </a>
           </div>
 
           {/* Menu items */}
-          <div className="hidden md:flex space-x-8">
-            <a href="/" className="text-green-500 hover:text-green-600">
+          <div className="hidden md:flex space-x-10 text-lg">
+            <a href="#home" className="text-green-500 hover:text-green-600">
               Home
             </a>
             {/* Dropdowns */}
@@ -45,7 +45,7 @@ export default function Navbar() {
                 leaveTo="transform opacity-0 scale-95"
               >
                 <Menu.Items className="absolute mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
-                  <Menu.Item>
+                <Menu.Item>
                     {({ active }) => (
                       <a
                         href="#"
@@ -53,7 +53,7 @@ export default function Navbar() {
                           active ? "bg-gray-100" : ""
                         }`}
                       >
-                        Item 1
+                        Burger
                       </a>
                     )}
                   </Menu.Item>
@@ -65,7 +65,19 @@ export default function Navbar() {
                           active ? "bg-gray-100" : ""
                         }`}
                       >
-                        Item 2
+                        Omellete
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={`block px-4 py-2 ${
+                          active ? "bg-gray-100" : ""
+                        }`}
+                      >
+                        Salad
                       </a>
                     )}
                   </Menu.Item>
@@ -86,7 +98,7 @@ export default function Navbar() {
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
               >
-                <Menu.Items className="absolute mt-2 w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
+                <Menu.Items className="absolute w-48 bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
                   <Menu.Item>
                     {({ active }) => (
                       <a
@@ -115,7 +127,7 @@ export default function Navbar() {
               </Transition>
             </Menu>
 
-            <a href="/offers" className="text-gray-700 hover:text-green-500">
+            <a href="#offers" className="text-gray-700 hover:text-green-500">
               Offers
             </a>
           </div>
@@ -132,7 +144,7 @@ export default function Navbar() {
               />
             </button>
             <a
-              href="/contact"
+              href="#contact"
               className="bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600"
             >
               Contact

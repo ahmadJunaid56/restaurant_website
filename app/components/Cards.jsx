@@ -12,7 +12,7 @@ export default function Cards() {
         <h1 className="uppercase text-red-500">Customer favourites</h1>
       </div>
       <div className="flex justify-center items-center">
-        <h1 className="mt-2 text-4xl font-bold">Popular Categories</h1>
+        <h1 className=" text-2xl md:text-4xl px-2 font-bold">Popular Categories</h1>
       </div>
       <div className="container px-10 mt-12 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
