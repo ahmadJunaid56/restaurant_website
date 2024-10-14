@@ -31,7 +31,7 @@ export default function Home() {
       <Testimonials />
       <Accordion />
       <div className="container mx-auto p-8">
-        <h1 className='text-3xl  text-red-400'>FAQ's</h1>
+        <h1 className='text-3xl  text-red-400'>FAQs</h1>
         <h1 className="text-4xl font-bold mb-6">Frequently Asked Questions</h1>
         <Accordion items={accordionItems} />
       </div>

@@ -25,9 +25,9 @@ export default function Testimonials() {
                 What Our Customers Say About Us
               </h3>
               <p className="mt-4 text-gray-600">
-                "I had the pleasure of dining at Foodi last night, and I'm still
+                I had the pleasure of dining at Foodi last night, and I am still
                 raving about the experience! The attention to detail in
-                presentation and service was impeccable." (Justin barber)
+                presentation and service was impeccable. (Justin barber)
               </p>
               <div className="mt-6 flex">
                 <div className="flex flex-shrink-0">

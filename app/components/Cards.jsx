@@ -12,7 +12,9 @@ export default function Cards() {
         <h1 className="uppercase text-red-500">Customer favourites</h1>
       </div>
       <div className="flex justify-center items-center">
-        <h1 className=" text-2xl md:text-4xl px-2 font-bold">Popular Categories</h1>
+        <h1 className=" text-2xl md:text-4xl px-2 font-bold">
+          Popular Categories
+        </h1>
       </div>
       <div className="container px-10 mt-12 mb-20">
         <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
@@ -23,6 +25,7 @@ export default function Cards() {
                 className="rounded-full"
                 width={150}
                 height={150}
+                alt="salad"
               />
             </div>
             <div>
@@ -38,6 +41,7 @@ export default function Cards() {
             <div className="flex justify-center items-center">
               <Image
                 src={burger}
+                alt="salad"
                 className="rounded-full"
                 width={150}
                 height={150}
@@ -59,6 +63,7 @@ export default function Cards() {
                 className="rounded-full"
                 width={150}
                 height={150}
+                alt="salad"
               />
             </div>
             <div>
@@ -77,6 +82,7 @@ export default function Cards() {
                 className="rounded-full"
                 width={150}
                 height={150}
+                alt="salad"
               />
             </div>
             <div>

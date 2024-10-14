@@ -23,6 +23,7 @@ export default function Banner() {
               className="rounded-full border-black border-4"
               width={250}
               height={250}
+              alt="salad"
             />
           </div>
           <div className="absolute bg-green-500 px-2 py-1 rounded-lg text-white text-xl top-2">
@@ -48,6 +49,7 @@ export default function Banner() {
               className="rounded-full border-black border-4"
               width={250}
               height={250}
+              alt="burger"
             />
           </div>
           <div className="absolute bg-green-500 px-2 py-1 rounded-lg text-white text-xl top-2">
@@ -73,6 +75,7 @@ export default function Banner() {
               className="rounded-full border-black border-4"
               width={250}
               height={250}
+              alt="omellete"
             />
           </div>
           <div className="absolute bg-green-500 px-2 py-1 rounded-lg text-white text-xl top-2">
@@ -101,6 +104,7 @@ export default function Banner() {
               className="rounded-full border-black border-4"
               width={250}
               height={250}
+              alt="burger"
             />
           </div>
           <div className="absolute bg-green-500 px-2 py-1 rounded-lg text-white text-xl top-2">
@@ -126,6 +130,7 @@ export default function Banner() {
               className="rounded-full border-black border-4"
               width={250}
               height={250}
+              alt="omellete"
             />
           </div>
           <div className="absolute bg-green-500 px-2 py-1 rounded-lg text-white text-xl top-2">
@@ -151,6 +156,7 @@ export default function Banner() {
               className="rounded-full border-black border-4"
               width={250}
               height={250}
+              alt="salad"
             />
           </div>
           <div className="absolute bg-green-500 px-2 py-1 rounded-lg text-white text-xl top-2">
